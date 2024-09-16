@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Cachorro - Rex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .dog-info {
+            background: rgb(190, 190, 190);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .dog-info img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .dog-info h2 {
+            margin: 20px 0;
+        }
+        .dog-info p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Detalhes do Cachorro - Golden retriever</h1>
+    </div>
+    <div class="container">
+        <div class="dog-info">
+            <img src="data:image/webp;base64,UklGRpYPAABXRUJQVlA4IIoPAACwbgCdASo4ATgBPoFAm0mlJCKkI/OqEKAQCWdu3V7UxsEZ5lLcoD3zlRNtTlxegJTIHZDdOnOJUTxiHC1MGKz1rketlZULjHBntr2bc5auumGA9dMgeqn+ECs7RI7oKRpIHglLGS3gstl2chn+yUYRVq66ZA7GM9PZI93zC7z4eup+ECQXfxNzt0CbBGm2JmCmHM8HGem9VvLkKKibu9kOJm/Xqv9FW0NN+MbiB2cfusThD/4qqKFV9PiWPSRs9svbQNZzhr870lUOeKPmo0qnnOm9zN+uMfldFK1M/B09jBAxWZszGdZeubG9HzIfDaJVekRAnWgaQ5imFp/QaAKAMwnflxYRtUpjfVSQQcYi40NPIY2R62KJ4AcSZSLnjYAS4asVfqUNvYrlC7dD4eqYUrYqu5cztpA4jVAFJyjx+iMBAd1QDc29DIHSnogc7ss8Rmf9XFFxuxteuxK9iyYqYv5A7E26+GYF8wzS+eCb0kJ8GfC0b+b0Py+PWrGJRfARJQCCqv04nA5cXndcfqJ6o/4i7WkmuY+3Jlq71olklgOWzBcXwq8u3lIKZWvCaBcOYpLcejkY4S5aYjnei1319FaBjOZKDd1fXPKr4p51xFAV5PsKNaoWLF91azbRQbkBFnd9TibozHl6+HXpANxyVHVr9zpAMs4Jrk2sjlQuhtqoyR97XqxLJaUguVkW1qloPaiVKZL4rKmJ6nRwL5LjdubUX/GqTY9SLKLKdiioVTAzbgNt9yLIYyXfn2+kMvbPZxf/L8MAF6a/NzXJxA67gbUlIGEZ1VGK37Qe5fg6BIlXGcVwC4Qaw34NmXbipkEv+pr96IbCtkUJq5UHY59amwkkNfB6aoe2o9RHIfGl1nxcxE2X+aBCw4wiS+IGKioJ6nx9vnqA5I5GCG+fWLFDmu2rUXEfBk6klBSp9fmchfYdz+/l+o10n73Rkp0dh8hHzncb8L/1FYZPgsZQ/ZZN7eX5G5abrFDJYRtc+1bw7TOQXI98eejBeaHx2p421z/rEcfwN3Z6ak8gr0QOn8wohsZ3DNNzpagHtkpzs1p8Y8ttUhp8HnXnRMP/mkleoeV6udZkj6BNQwZZmNnjVJ9PpQbUtiKGKkHfrLAjZWW/TKqdFHDHFDOTUwIbDnlz61oeC2pWZcsk0oQO9uO7AcfFhQbSyAaE+bMEfm3V+uAA/vr5Tgs3y5RIfT1QAAANkbxzGdAAAOxxAAPaAKRKDACOApDoSLxBOMsVXNLHXOceyT5OrzT45UeVc7ihjeiDGOdeEePb442QmQBijf8FQRl4koMSXMIHsQLNQLOR/EorGXf3Y2L2MHJcToqUxDFztIfZe5dYgJpgDtcw4CBketvh7VSEXyXQKu0ccsLbEjA1ezcpanaGIqxNgV8V/aYS6eMdFZMDWkJdMwKdfXBdMN1Qrt+Yin1Vh2ih/8ySGlJYf5eL38hdUgolTk2jOu8IAhN9qDxlaFNgcpqUc7Td3rfuZUKYPNYBsANefPDf/rMdRKQIkapF1K4Mln3OHPXIflMpGnk2wG4BKZBYT/hUWBC4qI0kppVagTwQEiJO2fQ4GOtOSAQjgQPjqeYlPe1gt56cvJqTIiVSXuxmv+y/c9IevQaI4oWUjAqZVigGY8AnHrsqp3oL/amD2dL8k0IACGDzoK5Bsqv/997IDdyTYZSdmcaZN0o4avsedXinLPsz8EEpF8Cll4++yRRnYKwF7OkuiymYIUHkBTWHZEtATQnDiy14zRjKUeJ/IKEHHjBoLBTYHZyx+tQxwTZuvY+IHpMzXpzuKKU+5io0nB7O+Z1YYxh7NM/dnRwg9ir8hH0VvOyR0x5Br3E5HCbLjb31fP8az+WprfJpezTiwtN/gvziakBLVUaiHFnB/XlAKOcX+tWa+AUR0GiZIGqFK6QgknRX3pr6PEAVKaI83I5rILR9pbkb79MKpLThFIJbglMIZAAAqkoDo+DnofWUJwAd0YKcxeCXxZgIPlLz12PGOn870sWGMujo8SZM2nseLFOuYsqwq+ynbu8F509Q9+DV5GH4o5wC1skEYFZ72xNdbW8RE6OKEueLMCLsW396I4McLOp+aqdpFYqGIb6NNROupVtp9FFLp7bYzgd3ZGmpoFKM3IKxXM3Bz0QtEcb3L6vF1a4IhHW6g2GFHkTWDQJbLOsbk4G4ijZxsS56Mkm0abo2gYJ/rNOTPle0mQoMladyg9pDXdTV5M8uUAwUQBAAAWv+yLlI/7jjyRUwpVp9d4DhD083VLmMqzz7VgEn6EjCdicXzd2Xx9O6CFdUomWBJeHT0ydoSkIMJBDMVt43wx+B97/+gt3RWmEYfb5z92sdA+0OmmxSMuqTjy9SYZ1BTrXflup4nmsd7IbIhT7/w2E5FnFof4YtQDZL1w/anoAjP7Mo/xhGya74eKfxKYUSftPc78aLKtWq0ePvBFrAMH2dVy2slpSNAE52VaRuVzQ5jEJS21AzezN0RB4FJ34ooMUYhf6nkCABrKs9jDhC20KVtYDWAhMmA5rce6UNMkSJ6OWKApHKWIjk7BOMw7vjLFK6snl1hUQr6n2KCBgGc6TR5tIwGcDVvzLESLsdgaRB9fcVAIb2sNeCrmgNox9xtf9J3/I0F0WDkmnsC4W+x/h8rHHyumkJWqthvxo+m9NY1cAPgECjLSxfVXMLQ0JAxRcRjeQr+XFh/Ws9LrZdz/ihAlpkBSCzqy47AOEWKzAnfJXDbKbfvAyHLXNzDf7cujH1lMDuK1NqJFeIySrLbNcksXfOP+Nr0zJJxHfbyMTqLGzNS+1u4ZCBua86SrZE65nimfFp9VMSLtlGTZ+7nWRCohaZMoyGOUD10MUbJOK/yKFTQ1MjoL43IJaqmGjRFedNZsWOmW9h+sZ8c93MxbDVoFuwGmqaCMHnAgKNAIsM42Lkps+V5+laz0Cvy+iw2SESdWzlD2NqZ3psUGsrs4E5w4dx+ua8/EzHm+ZvA/3qalRHKKfEHLwjHeTpGnkcZkn86jvyL164MhrRULsdwRPGnaGw1owZBZksnq7IoBml8yVX2xdzhmykMgxLH5RWyPmvpIQKhFGlakaqUQo/Fo1BXIQUkixP1M9l4fEP01tUrHZ9xAE8k0EHru5Ds6B0izhRRdWB3fdvUxIbsz3LsstkMz4DzGyE4oZiezNFHwMaFIgy09iMOYesiFFHhAyLmhCe47PASj5bMfAUyhq2Duy24d7yYInc2lSIxrRgYGQumwk9L28a6chj1L7QB+aZBDkIjxu69Xo2Ytkv+R9FjII/8+WKR/OkDGxhWrJtbwWvravYXg29Q59qDiodx0vMLeuK5NGV9mjKyMRSi/OSZ/0goMC3sR5eIjYo/w0HbCkFrQKfrzmJoHUg/5ZlGi8OuAYON+KF+miw83/A5c/HGFn1V4+sxU5l4wvE7ar7XThODEPY+hh4/n4KqytEfAU8jJ0TGRSGILwByKly9TUzvnbJj7PSS1234qCl8i4HabWxiNap+yJf2b2rMXgunhm+7hYTIIg2RqnVvwYjRMEzGbhgiQuMEtt3ibitJjs6GJlaxxR6jRrSDG1JKRA6PunLaAMHD3V6csOTBCRvhm1GX08HMwcHeChv/mNQyyZMFOs8nAZwfMyeun7bCSmiu/2K2HSc8YBfMf0Y8CY8PA1VpOQe2JK6U7S2RDy8+HJx2HKNhm6rFsGvdSfo+TCtdR0MyF189/QMbYdgNRx3nMYHi20HtgG0wAe7mlNAGvKow0vSctf4PCgJvuoiE+JWm/WaCbHpjJBTBMe3wRSwwQM3W5OvCP1XIBgS+ZD+c2R4d4gtCLNF5OSO6PQaKn8riSMpE7fP1WWqR9Ok5pL1lso7aEVzopq0VFjJZe4K6AayWF5It0Ch+8MVtYbTU+ZaEX2cw0ukA0m9A7EPRbPdDgeq+x0OwE8D+YUHXR2gQKmkVJGhmLVJWJEn5sTHV0czhAhBbr426rj0PCIrasQ4k9Z3+cA7ZsAjIfiSlN1zjE65iTmJMzSIYEC+sdR6+LcCah3GxhIrM3TfI+qXCj13GX17CFYCuB42mh5d/GyJYyXAj52xtA+7Gf71oXOndfr0PTq1UZPI1Xi8W7oSi4UXgLrG0K6qltG1qcEsPSGymgzNzLIeTz5TD/JCE7cKCh40ByUFHfE0dUNO3KV+DzbSdFPrt7AXhA73hfUKptkyNM05MP40ttdq5sv6g/N7XR0KfNq9SIbEe9Ug7J9hTG5oFW37lRC6wg7iGYkLxC5oWx0mrgvQxJb4zfxHADPd5XItd2tD5hKDkQI+nZYH0dABPj2vbuP41GOQ25sF9r763keU87zrLoqbQe37pWq2/2Am5PTzERMhBYWw3k2sNWH2bW/peN9jr/fch4EE1EuI25LH4KAW56S3QbtREvoR8KPYa51/voizWGZt8kpO2iev29SHH03V/teqSie6ad6dDWRwrxizQJ1ly3ZgDu3QKjh51bAJdLYqPPkOcpj3Q2jUR9Px4z030wxjYkCxSHjVzhW9QHPZcJvUohAbT7lcTFuQBivMeF7wMINvVANBnq08fruKL+ineOTqcnw1AGyTdJwSS8H9KlOzUbXZT0dSFXxm9XL5L6661dZsNorvSjHYKyE/Cf+HA4p6hsZv51OF+ywz5ww7RjirLx4jgY2IXKmHe1LatEoo1WeNGAJKkLON45GNGlle8EhK5n0ucVZOFr3vzyDPfXwGnpJ+9htIhAGIJvdZqkEuGPVF+0i/DWIUN2nW7bbWf0rUjsiVC8M81BhqDtO8KOfYAMm7yjKIRL2PEWlgj3KUWSVZ0VtYLp/IEFCfxUW/iVhWn6MGk7HKhxc4wwLRhGcBZ/wJzHVYAQOQ0q+AOGYRzFoWsLPBaklagBZm3+0005jUZpCarupYm9H8kRL/oxrgS5rixWKtISY3VEe3JrbbzK+9ekOdG9esH+OvWjJiZyCwhcDXP7dATsa1GNrEzCBLJb+DVk1zXCm6fQRn2HpI/e3X45tZClwMx0FJwU2IXiAtkQLnsje/UgKrNA/KV3Fu+7I2+4udK5t6irK2xn748vIaqcBFTzWzHhldkjQsYRaG1w0/4UnMtKP0bKTT3V73bsiu9CbjuV5Sboi0ZA3ZP2BiGwzjWLNiosuB8QuJcCRLojWsqOjGsjMluxuDF1XVYIaxcDwUtbIf6qXlIR9RThmO4MlkbGnpZsyoliF9HjN9gmpGrh+YbvabPztjCum+UhAZKhGvwg1iGuXkMqpLPfvLSWI35zuF3mEPXJlypne5arHBKjwDo/6uiwjmFhQ6ZZDPxx2gAAA=" alt="Rex">
+            <h2>Slinky</h2>
+           
+            <p><strong>Descrição:</strong> Muitos cachorros de grande porte costumam ser intimidadores pelo seu tamanho. No entanto, o golden retriever, também conhecido como yellow retriever, parece fugir à regra. O golden conquista pessoas de todas as idades com sua expressão brincalhona e amigável, que além de estampar seu rosto, está presente em sua personalidade.</p>
+            <p><strong>Idade:</strong> 13 anos</p>
+            <p><strong>Raça:</strong> Golden retriever</p>
+            <p><strong>Peso:</strong>  25-34 kg</p>
+            <p><strong>Altura:</strong> 56-60 cm</p>
+            <p><strong>Expectativa de vida:</strong> 10-12 anos</p>
+            <p><strong>Vacinas:</strong> Atualizadas</p>
+            <p><strong>Castrado:</strong> Sim</p>
+            <a href="home.html" class="back-button">Voltar</a>
+        </div>
+    </div>
+</body>
+</html>
